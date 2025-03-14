@@ -76,7 +76,11 @@ Ordering by total events hosted in descending order to show most active clients 
 
 <img width="263" alt="image (15)" src="https://github.com/user-attachments/assets/98ef7077-a1f1-484d-8735-1f1a238bd68f" />
 
-6. Query 6 
+6. Query 6 counts and sums the most common referral types and then orders them in descending order. This query is especially useful from a marketing perspective. As a manager, growing your business is crucial to success. This data shows us what referral types are most common and, therefore, what kind of advertising a business should focus on. 
+<img width="559" alt="Screenshot 2025-03-14 at 1 21 02 AM" src="https://github.com/user-attachments/assets/a3a170aa-37bd-40a9-988f-ed2b8712ad38" />
+<img width="544" alt="Screenshot 2025-03-14 at 1 20 44 AM" src="https://github.com/user-attachments/assets/c2987c36-1816-496c-b924-10c8ddb3963b" />
+
+7. Query 7 
 
 
 
