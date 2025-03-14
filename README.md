@@ -65,11 +65,11 @@ Orders by total attendees in descending order to highlight the most attended eve
 <img width="255" alt="image (13)" src="https://github.com/user-attachments/assets/d08183d2-2254-4ca6-bad7-abb5349ac9e3" />
 
 
-5.Query 5 returns the total number of events hosted by each client.providing valuable insights into client engagement and event-hosting activity. By counting the total number of events booked by each client, businesses can identify their most active and loyal customers. This data helps event management companies or venues recognize high-value clients who may be eligible for loyalty programs, special discounts, or personalized services.
+5.Query 5 returns the total number of events hosted by each client providing valuable insights into client engagement and event-hosting activity. By counting the total number of events booked by each client, businesses can identify their most active and loyal customers. This data helps event management companies or venues recognize high-value clients who may be eligible for loyalty programs, special discounts, or personalized services.
 
 Additionally, ranking clients by the number of events hosted enables companies to allocate resources efficiently, ensuring that frequent clients receive priority support and engagement. The insights derived from this query also aid in strategic marketing efforts by targeting less active clients with promotions or incentives to increase their event bookings. Furthermore, it provides a clear snapshot of customer distribution, helping management analyze patterns in event hosting and develop data-driven strategies to enhance client retention and satisfaction.
 
-This query works by Counting the total number of events booked by each client.
+This query works by counting the total number of events booked by each client.
 Grouping results by client ID, first name, and last name.
 Ordering by total events hosted in descending order to show most active clients first.
 <img width="460" alt="image (14)" src="https://github.com/user-attachments/assets/cf38eafc-a914-4309-9078-402b0c17932d" />
@@ -80,8 +80,8 @@ Ordering by total events hosted in descending order to show most active clients 
 <img width="559" alt="Screenshot 2025-03-14 at 1 21 02 AM" src="https://github.com/user-attachments/assets/a3a170aa-37bd-40a9-988f-ed2b8712ad38" />
 <img width="544" alt="Screenshot 2025-03-14 at 1 20 44 AM" src="https://github.com/user-attachments/assets/c2987c36-1816-496c-b924-10c8ddb3963b" />
 
-7. Query 7 
-
+7. Query 7 retrieves all bookings and the corresponding venue names. This query can be useful for a manager/event planner who is using the system to see what venues are going to be occupied for each booking. This can be especially useful to see what venues need to have staff prioritized and allow managers to plan the events accordingly. 
+<img width="1388" alt="Screenshot 2025-03-14 at 3 01 48 PM" src="https://github.com/user-attachments/assets/4a3a7ab1-eaaf-4c1d-9a30-31ea5e9185c1" />
 
 
 ## Database Information
