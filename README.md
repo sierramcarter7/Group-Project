@@ -103,3 +103,5 @@ Ordering by total events hosted in descending order to show most active clients 
 ![Screenshot 2025-03-14 215814](https://github.com/user-attachments/assets/06c0253e-8d34-4e72-a3c4-9b499d1f27f1)
 
 ## Database Information
+<img width="980" alt="Screenshot 2025-03-14 at 11 33 33 PM" src="https://github.com/user-attachments/assets/b56392db-2f1e-4a5b-8e7a-8c49dd0c4baf" />
+
