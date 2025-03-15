@@ -1,6 +1,6 @@
 # MIST 4610-Project1-Group1
 
-The event manager can use an event management system to ensure smooth operations. Our Event Management Database is designed to Improve efficiency.Administrative tasks such as ticket sales, bookings, booking location, etc., are automated, making event planning more streamlined. Ourdatabse will also aid in Better decision making  Allows managers to obtain insight regarding vendor availability, attendee demographics, etc. which can help managers adjust marketing when needed. Additionally managers can easily track revenue coming in from attendees, generate reports for top-spending attendees, etc. Lastly multi-user access can allow multiple vendors, organizers, ticketing partners, etc. to access the database while maintaining data integrity.
+The event manager can use an event management system to ensure smooth operations. Our Event Management Database is designed to improve efficiency. Administrative tasks such as ticket sales, bookings, booking location, etc., are automated, making event planning more streamlined. Our database will also aid in Better decision making, allowing managers to obtain insight regarding vendor availability, attendee demographics, etc., which can help managers adjust marketing when needed. Additionally, managers can easily track revenue coming in from attendees, generate reports for top-spending attendees, etc. Lastly, multi-user access can allow multiple vendors, organizers, ticketing partners, etc., to access the database while maintaining data integrity.
 
 
 ##  Database
@@ -21,11 +21,11 @@ The event management database model depicted in the image is designed to efficie
 
 
 ## Queries 
-1. Querey 1 provides key insights into client booking behavior and total payments, helping businesses identify their most valuable and engaged customers. By retrieving a list of clients who have made multiple bookings, it highlights repeat customers who are driving sustained revenue. The query counts the total number of bookings per client and sums up their total payments, offering a clear picture of customer spending patterns.
+1. Query 1 provides key insights into client booking behavior and total payments, helping businesses identify their most valuable and engaged customers. By retrieving a list of clients who have made multiple bookings, it highlights repeat customers who are driving sustained revenue. The query counts the total number of bookings per client and sums up their total payments, offering a clear picture of customer spending patterns.
 
 Filtering out clients with only one booking ensures that the analysis focuses on high-value customers, which is useful for customer retention strategies. Ordering the results by total bookings and then by total payments allows businesses to prioritize their top clients for loyalty programs, exclusive discounts, or premium services. This insight can be leveraged for targeted marketing efforts, optimizing customer relationship management, and improving service offerings to encourage continued engagement. 
 
-This query works by Retrieving a list of clients who have made multiple bookings.
+This query works by retrieving a list of clients who have made multiple bookings.
    Counting the total number of bookings per client (COUNT(Bookings.booking_id)).
    Sums up the total payment made by each client (SUM(Client_Payments.client_payment_amount)).
  Uses HAVING COUNT(Bookings.booking_id) > 1 to filter only those who booked more than once.
@@ -34,7 +34,7 @@ This query works by Retrieving a list of clients who have made multiple bookings
 <img width="342" alt="image (4)" src="https://github.com/user-attachments/assets/a5a8f926-1211-418c-9c86-bf763557123f" />
 
 2. Query 2 Sums up the client payments and attendee payments for each event.
-Adds both revenues to get total revenue.Groups by client ID and event name to get revenue per-client for each event.Orders by total revenue in descending order to show the highest earning events first. This allows us to dentify high-value clients who contribute the most revenue and Compare revenue across different events to identify successful vs. underperforming ones.
+Adds both revenues to get total revenue.Groups by client ID and event name to get revenue per-client for each event.Orders by total revenue in descending order to show the highest earning events first. This allows us to identify high-value clients who contribute the most revenue and compare revenue across different events to identify successful vs. underperforming ones.
 
 
 <img width="616" alt="image (5)" src="https://github.com/user-attachments/assets/ca84e1e1-9759-4df9-a544-271666021d3e" />
@@ -43,7 +43,7 @@ Adds both revenues to get total revenue.Groups by client ID and event name to ge
 
 
 
-3. Query 3 returns the top 5 highest-grossing events. This query works by Calculating total revenue for each event.
+3. Query 3 returns the top 5 highest-grossing events. This query works by calculating total revenue for each event.
 Sums client payments (SUM(Client_Payments.client_payment_amount)).
 Sums attendee payments (SUM(Attendee_Payments.att_payment_amount)).
 Computes overall revenue per event.
@@ -55,8 +55,8 @@ Uses LIMIT 5 to fetch only the top 5 highest-grossing events.
 <img width="442" alt="image (9)" src="https://github.com/user-attachments/assets/c2a35988-7be1-4843-9010-20f402e5f209" />
 
 
-4.Query 4 gives the user insight into the events with the most attendees. This query helps to provide insights like determining which types of events perform best, enabling targeted marketing strategies to maximize attendance. Additionally it can guide decisions on venue selection,staffing,and resource allocation based on historical attendance data. Moreover managers will be provided with data on which events attract the most people, allowing them to analyze trends and replicate successful strategies.Finally this query ensures that event spaces are adequately sized and staffed to handle expected crowds, reducing overcrowding and improving the attendee experience. This querey works by: Displaying the event ID, event name, and count of total attendees per event. 
-Joining attendees table with event table so we can acquire the count of total attendees.
+4. Query 4 gives the user insight into the events with the most attendees. This query helps to provide insights like determining which types of events perform best, enabling targeted marketing strategies to maximize attendance. Additionally, it can guide decisions on venue selection, staffing, and resource allocation based on historical attendance data. Moreover, managers will be provided with data on which events attract the most people, allowing them to analyze trends and replicate successful strategies. Finally, this query ensures that event spaces are adequately sized and staffed to handle expected crowds, reducing overcrowding and improving the attendee experience. This query works by: Displaying the event ID, event name, and count of total attendees per event. 
+Joining the attendees table with the event table so we can acquire the count of total attendees.
 Groups by event ID and event name to show per-event statistics.
 Orders by total attendees in descending order to highlight the most attended events first.
 
@@ -82,6 +82,10 @@ Ordering by total events hosted in descending order to show most active clients 
 
 7. Query 7 retrieves all bookings and the corresponding venue names. This query can be useful for a manager/event planner who is using the system to see what venues are going to be occupied for each booking. This can be especially useful to see what venues need to have staff prioritized and allow managers to plan the events accordingly. 
 <img width="1388" alt="Screenshot 2025-03-14 at 3 01 48 PM" src="https://github.com/user-attachments/assets/4a3a7ab1-eaaf-4c1d-9a30-31ea5e9185c1" />
+
+8. Query 8 finds the average payment made by attendees per event. This can be helpful for organizers because it allows them to evaluate whether their ticketing prices are optimal. If average payment is lower, organizers can discuss increasing prices. If the average payment is higher, organizers can consider running promotional deals.
+<img width="1381" alt="Screenshot 2025-03-14 at 8 08 28 PM" src="https://github.com/user-attachments/assets/d9140368-7622-4da6-852c-ec7f28d4aba7" />
+
 
 
 ## Database Information
