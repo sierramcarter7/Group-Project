@@ -87,6 +87,7 @@ Ordering by total events hosted in descending order to show most active clients 
 <img width="1381" alt="Screenshot 2025-03-14 at 8 08 28 PM" src="https://github.com/user-attachments/assets/d9140368-7622-4da6-852c-ec7f28d4aba7" />
 
 9. Query 9 sorts by the revenue_difference column in descending order, highlighting events where the revenue difference is largest. This could help identify events with the most significant attendee contribution versus client contribution.
-    ![wwss](https://github.com/user-attachments/assets/8e1b41fe-5c19-4a66-aa31-d9fdced38e0d)
+    ![wwss](https://github.com/user-attachments/assets/8e1b41fe-5c19-4a66-aa31-d9fdced38e0d)![Screenshot 2025-03-14 222251](https://github.com/user-attachments/assets/fb85b05c-e3ad-4e18-8240-67211b788aa6)
+
 
 ## Database Information
