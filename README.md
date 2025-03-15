@@ -86,6 +86,7 @@ Ordering by total events hosted in descending order to show most active clients 
 8. Query 8 finds the average payment made by attendees per event. This can be helpful for organizers because it allows them to evaluate whether their ticketing prices are optimal. If average payment is lower, organizers can discuss increasing prices. If the average payment is higher, organizers can consider running promotional deals.
 <img width="1381" alt="Screenshot 2025-03-14 at 8 08 28 PM" src="https://github.com/user-attachments/assets/d9140368-7622-4da6-852c-ec7f28d4aba7" />
 
-
+9. Query 9 sorts by the revenue_difference column in descending order, highlighting events where the revenue difference is largest. This could help identify events with the most significant attendee contribution versus client contribution.
+    
 
 ## Database Information
