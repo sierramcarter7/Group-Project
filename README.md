@@ -89,5 +89,6 @@ Ordering by total events hosted in descending order to show most active clients 
 9. Query 9 sorts by the revenue_difference column in descending order, highlighting events where the revenue difference is largest. This could help identify events with the most significant attendee contribution versus client contribution.
     ![wwss](https://github.com/user-attachments/assets/8e1b41fe-5c19-4a66-aa31-d9fdced38e0d)![Screenshot 2025-03-14 222251](https://github.com/user-attachments/assets/fb85b05c-e3ad-4e18-8240-67211b788aa6)
 
-
+10. Query 10 lists all events with their dates, ordered by the event date with the oldest dates starting at the bottom. Having all event dates in order would help keep the business organized and allow them to plan and communicate more effectively
+![Screenshot 2025-03-14 215814](https://github.com/user-attachments/assets/06c0253e-8d34-4e72-a3c4-9b499d1f27f1)
 ## Database Information
